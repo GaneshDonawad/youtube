@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #000; /* Full black background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-section {
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+.bio-data {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.bio-data li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.btn-danger {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}

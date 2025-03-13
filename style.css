@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow: hidden;
+    background: black;
+    background-size: cover;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.myinfo {
+    position: relative;
+    top: 200px;
+    left: 150px;
+    width: 500px;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.73);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    color: white;
+    margin-left: 20px;
+}
+
+.btn {
+    border: none;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: red;
+    text-shadow: 0 0 20px black;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -2;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(0);
+}
+
+.hue {
+    color: rgb(240, 81, 2);
+    font-weight: bold;
+    animation: hue 5s infinite;
+}
+
+@keyframes hue {
+    0% {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    100% {
+        -webkit-filter: hue-rotate(700deg);
+    }
+}
+
+/* Rainbow Gradient Effect for ganu_donawad */
+.log {
+    font-weight: bold;
+    font-size: 22px;
+    background: linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #8b00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s linear infinite;
+}
+
+/* Animation for Smooth Transition */
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* About Page Styling */
+.about-container {
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
